@@ -1,5 +1,5 @@
 import json
-import Indexing
+import KeyYearMonthSearch
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -7,8 +7,7 @@ app = Flask(__name__)
 @app.route('/search', methods=['GET'])
 def search():
     keyword = request.args.get('keyword')
-    secondparameter = request.args.get('secondparameter')
-    result = Indexing.search(keyword)
+    result = KeyYearMonthSearch.key_search(keyword)
     return result
 if __name__ == '__main__':
     app.run(debug=True)
