@@ -1,4 +1,4 @@
-from applicationAlgorithms.index.Index import *
+from index.Index import *
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 

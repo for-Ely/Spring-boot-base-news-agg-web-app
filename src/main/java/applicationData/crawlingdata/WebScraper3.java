@@ -1,4 +1,4 @@
-package crawlingdata;
+package applicationData.crawlingdata;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

@@ -1,4 +1,4 @@
-package crawlingdata;
+package applicationData.crawlingdata;
 import java.util.Set;
 
 public class Main {

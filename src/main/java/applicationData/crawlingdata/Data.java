@@ -1,4 +1,4 @@
-package crawlingdata;
+package applicationData.crawlingdata;
 
 public class Data {
     private String url;
@@ -58,6 +58,9 @@ public class Data {
         this.type = type;
         this.imageLink = imageLink;
     }  //constructor
+
+    public Data() {
+    }
 
     public String toCsvFormat() {
         return String.format("\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"\n", url, site, title, description, author, publicationDate, type, imageLink);

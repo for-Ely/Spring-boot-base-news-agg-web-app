@@ -1,4 +1,4 @@
-package application_ui.newaggregator;
+package applicationUI.newsaggregator;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

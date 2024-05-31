@@ -1,4 +1,4 @@
-package crawlingdata;
+package applicationData.crawlingdata;
 
 import java.io.FileWriter;
 import java.io.IOException;
